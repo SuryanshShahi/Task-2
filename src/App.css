@@ -4,7 +4,11 @@
 }
 * {
   font-family: Nunito;
+  font-size: 18px;
   scroll-behavior: smooth;
+}
+.section{
+  height: 100vh;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -73,10 +77,12 @@
 }
 .D.card {
   border-radius: 20px;
+ 
   background-color: rgba(20, 75, 20, 0.76);
 }
 .tile1 {
   min-height: 450px;
+  max-height: 450px;
 }
 .tile {
   min-height: 270px;
@@ -104,13 +110,16 @@
 }
 .play2{
   top: 76%;
-  position: absolute;
-  left: 69%;
+  /* position: absolute; */
+
   cursor: pointer;
 }
 .list-unstyled li{
   color: rgba(255, 255, 255, 0.418);
   cursor: pointer;
+}
+.fsize{
+  font-size: 19px;
 }
 .list-unstyled li:hover{
   color: white;
@@ -127,9 +136,18 @@
 .cardback1.card{
 border-radius: 50px;
 background-color: #e43c5c;
-left: 18.5%;
+box-shadow: none; 
+cursor: pointer;
+transition: 0.5s;
+}
+.cardback1.card:hover{
+border-radius: 50px;
+background-color: #e21e42;
 }
 .logout:hover{
   cursor: pointer;
   color: #e43c5c;
+}
+.profile{
+  width: 40px;
 }
