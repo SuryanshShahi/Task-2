@@ -1,0 +1,57 @@
+                <ul className="nav nav-tabs">
+                  <li className="active">
+                    <a
+                      className="active font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none"
+                      type="button"
+                      data-toggle="tab"
+                      href="#all"
+                    >
+                      All
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none"
+                      type="button"
+                      data-toggle="tab"
+                      href="#action"
+                    >
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none"
+                      type="button"
+                      data-toggle="tab"
+                      href="#podcast"
+                    >
+                      Podcast
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none"
+                      type="button"
+                      data-toggle="tab"
+                      href="#video"
+                    >
+                      Video
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none"
+                      type="button"
+                      data-toggle="tab"
+                      href="#download"
+                    >
+                      Downloads
+                    </a>
+                  </li>
+                  <li>
+                    <div className="btn btn-danger text-white mx-4">
+                      Play All
+                    </div>
+                  </li>
+                </ul>
