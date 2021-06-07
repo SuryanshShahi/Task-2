@@ -73,25 +73,24 @@ function Home() {
                     src={web}
                     className="text-danger logout d-flex w-75 img-fluid mb-2"
                   ></img>
-</div>
-                  <div className="text-white float-lg-right float-sm-right float-md-left mt-lg-1 mb-2">
-                    <img
-                      src={web2}
-                      className="text-danger profile fa-circle fa img-fluid"
-                    ></img>
-                    <img
-                      src={web1}
-                      className="text-danger profile fa-circle fa img-fluid"
-                    ></img>
-                    <img
-                      src={web4}
-                      className="text-danger profile fa-circle fa img-fluid"
-                    ></img>
-                    <img
-                      src={web3}
-                      className="text-danger profile fa-circle fa img-fluid"
-                    ></img>
-                 
+                </div>
+                <div className="text-white float-lg-right float-sm-right float-md-left mt-lg-1 mb-2">
+                  <img
+                    src={web2}
+                    className="text-danger profile fa-circle fa img-fluid"
+                  ></img>
+                  <img
+                    src={web1}
+                    className="text-danger profile fa-circle fa img-fluid"
+                  ></img>
+                  <img
+                    src={web4}
+                    className="text-danger profile fa-circle fa img-fluid"
+                  ></img>
+                  <img
+                    src={web3}
+                    className="text-danger profile fa-circle fa img-fluid"
+                  ></img>
                 </div>
                 <h1 className="text-white font-weight-bold">Motivation</h1>
 
