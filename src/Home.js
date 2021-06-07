@@ -9,8 +9,8 @@ function Home() {
   const [details] = useState(Details);
 
   return (
-    <section className="section bg-black py-1 px-5 w-100">
-      <div className="container-fluid w-100 h-100 B">
+    <section className="section bg-black w-100">
+      <div className="container-fluid w-100 h-100 pt-1 B">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-12 text-white">
             <div className="container mt-5">
@@ -29,7 +29,7 @@ function Home() {
                 </div>
               </div>
               <div className="container">
-                <h5 className="font-weight-bold mt-5">Motivation</h5>
+                <h5 className="font-weight-bold mt-2">Motivation</h5>
                 <ul className="list-unstyled pt-3">
                   <li>
                     Productivity{" "}
@@ -41,13 +41,13 @@ function Home() {
                   <li className="pt-4">Study</li>
                 </ul>
               </div>
-              <div className="container justify-content-center d-flex mt-5">
-                <div className="card cardback border-0 shadow-lg fa-2x mt-5 py-3 w-75 pr-1">
+              <div className="container justify-content-center d-flex mt-3">
+                <div className="card cardback border-0 shadow-lg fa-2x mt-4 py-3 w-75 pr-1">
                   <li className="list-unstyled">
                     <div className="fa fa-rocket text-danger fa-lg d-flex pl-4">
                       <h6 className="pl-4 text-white">
                         Pro account is more powerful. Get 30% off<br></br>
-                        <div className="btn btn-primary bg-white text-danger font-weight-bold mt-3 px-3">
+                        <div className="btn btn-primary border-0 mt-3 px-3">
                           Create
                         </div>
                       </h6>
@@ -66,7 +66,7 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-8 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3">
-            <div className="container-fluid A h-100 py-3 pb-4 my-3">
+            <div className="container-fluid A py-3 pb-4 my-3">
               <div className="container py-2">
                 <div className="text-white float-right col-sm justify-content-end d-flex">
                   <img
@@ -178,7 +178,7 @@ function Home() {
                               <div className="D card tile1">
                                 <div className="row">
                                   <div className=" justify-content-center d-flex align-items-center">
-                                    <div className="text-white font-weight-bold pt-4 mb-4">
+                                    <div className="text-white font-weight-bold pt-lg-4 px-2 mb-4">
                                       {tag}
                                     </div>
                                     <div className="play">
@@ -240,7 +240,7 @@ function Home() {
                                           {tag3}
                                         </h2>
 
-                                        <div className="btn btn-primary bg-white text-dark font-weight-bold mt-2">
+                                        <div className="btn btn-primary justify-content-center d-flex w-75 border-0 mt-2">
                                           Read Answers
                                         </div>
                                       </div>

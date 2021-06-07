@@ -67,6 +67,17 @@
 .btn.btn-danger {
   background-color: #e44d68;
 }
+.btn.btn-primary {
+font-size: 15px;
+background-color: white;
+color: #e21e42;
+font-weight: bold;
+transition: 0.5s;
+}
+.btn.btn-primary:hover {
+  background-color: #e44d68;
+  color: white;
+}
 
 .tab-content {
   max-width: 1300px;
