@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Details from "./Data/Details";
 import web from "./images/plus.png";
 import web1 from "./images/profile.png";
@@ -15,7 +16,9 @@ function Home() {
           <div className="col-lg-4 col-md-6 col-12 text-white">
             <div className="container mt-5">
               <div className="mb-5 card ml-3 bordercard col-2 pt-2 bg-white text-dark justify-content-center d-flex align-items-center">
+                <NavLink to="/" className="text-decoration-none text-dark">
                 <h2 className="font-weight-bold text-black">B</h2>
+                </NavLink>
               </div>
 
               <div className="row sidecard py-4">
@@ -44,7 +47,7 @@ function Home() {
               <div className="container justify-content-center d-flex mt-3">
                 <div className="card cardback border-0 shadow-lg fa-2x mt-4 py-3 w-75 pr-1">
                   <li className="list-unstyled">
-                    <div className="fa fa-rocket text-danger fa-lg d-flex pl-4">
+                    <div className="fa fa-rocket text-danger fa-2x d-flex pl-4">
                       <h6 className="pl-4 text-white">
                         Pro account is more powerful. Get 30% off<br></br>
                         <div className="btn btn-primary border-0 mt-3 px-3">
